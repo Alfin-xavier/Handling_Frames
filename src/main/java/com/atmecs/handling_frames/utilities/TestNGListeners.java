@@ -1,7 +1,5 @@
 package com.atmecs.handling_frames.utilities;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -25,19 +23,12 @@ public class TestNGListeners implements ITestListener
 	{
 		System.out.println(result.getName()+" "+"Failed!!");
 
-		try 
-		{
-			TakeScreenShots.takeScreenshot(driver, "errorpage");
-		}
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
+		TakeScreenShots.takeScreenshot(driver, result.getName());
 	}
 
 	public void onTestSkipped(ITestResult result) 
 	{
-		System.out.println(result.getName()+" "+"Skipped TestCase!!");
+		System.out.println(result.getName()+" "+"Skipped!!");
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) 
