@@ -7,7 +7,7 @@ import org.testng.ITestResult;
 
 public class TestNGListeners implements ITestListener
 {
-	public WebDriver driver;
+	public static WebDriver driver;
 
 	public void onTestStart(ITestResult result)
 	{

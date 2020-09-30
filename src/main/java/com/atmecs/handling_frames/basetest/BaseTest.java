@@ -9,6 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import com.atmecs.handling_frames.constants.Constants;
 import com.atmecs.handling_frames.utilities.PropertyReader;
+import com.atmecs.handling_frames.utilities.TestNGListeners;
 
 public class BaseTest 
 {
@@ -30,7 +31,8 @@ public class BaseTest
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
-
+		
+		TestNGListeners.driver = driver;
 	}
 
 	@AfterMethod

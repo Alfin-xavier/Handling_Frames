@@ -2,6 +2,7 @@ package com.atmecs.handling_frames.tests;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.atmecs.handling_frames.basetest.BaseTest;
@@ -35,5 +36,7 @@ public class HandlingFrames extends BaseTest
 		{
 			e.printStackTrace();
 		}
+		
+		Assert.assertFalse(driver.getTitle().contains("booking script"));
 	}
 }
