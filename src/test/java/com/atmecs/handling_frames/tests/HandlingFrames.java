@@ -37,6 +37,5 @@ public class HandlingFrames extends BaseTest
 			e.printStackTrace();
 		}
 		
-		Assert.assertFalse(driver.getTitle().contains("booking script"));
 	}
 }
