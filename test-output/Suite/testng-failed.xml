@@ -10,7 +10,7 @@
         <methods>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="handlingFrames" invocation-numbers="1"/>
+          <include name="handlingFrames" invocation-numbers="5"/>
         </methods>
       </class> <!-- com.atmecs.handling_frames.tests.HandlingFrames -->
     </classes>

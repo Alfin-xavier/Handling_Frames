@@ -31,7 +31,7 @@ public class BaseTest
 		driver.get(baseUrl);
 		
 		System.out.println(driver.getCurrentUrl());
-		Assert.assertTrue(true, baseUrl);
+		Assert.assertTrue(true);
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
