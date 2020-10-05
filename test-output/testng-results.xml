@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-01T15:21:08 IST" name="Suite" finished-at="2020-10-01T15:26:26 IST" duration-ms="318564">
+  <suite started-at="2020-10-04T21:56:06 IST" name="Suite" finished-at="2020-10-04T21:57:58 IST" duration-ms="111756">
     <groups>
     </groups>
-    <test started-at="2020-10-01T15:21:08 IST" name="Test" finished-at="2020-10-01T15:26:26 IST" duration-ms="318564">
+    <test started-at="2020-10-04T21:56:06 IST" name="Test" finished-at="2020-10-04T21:57:58 IST" duration-ms="111756">
       <class name="com.atmecs.handling_frames.tests.HandlingFrames">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:21:09 IST" name="beforeTest" finished-at="2020-10-01T15:21:19 IST" duration-ms="10556" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:07 IST" name="beforeTest" finished-at="2020-10-04T21:56:19 IST" duration-ms="11915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:21:19 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-01T15:21:29 IST" duration-ms="9418" status="PASS">
+        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:19 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-04T21:56:28 IST" duration-ms="9870" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,15 +32,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingFrames -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:21:29 IST" name="afterTest" finished-at="2020-10-01T15:21:29 IST" duration-ms="430" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:28 IST" name="afterTest" finished-at="2020-10-04T21:56:29 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:21:29 IST" name="beforeTest" finished-at="2020-10-01T15:21:41 IST" duration-ms="11812" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:29 IST" name="beforeTest" finished-at="2020-10-04T21:56:39 IST" duration-ms="10190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:21:41 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-01T15:21:51 IST" duration-ms="10555" status="PASS">
+        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:39 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-04T21:56:48 IST" duration-ms="8979" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,15 +61,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingFrames -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:21:51 IST" name="afterTest" finished-at="2020-10-01T15:21:52 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:48 IST" name="afterTest" finished-at="2020-10-04T21:56:48 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:21:52 IST" name="beforeTest" finished-at="2020-10-01T15:22:22 IST" duration-ms="30380" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:48 IST" name="beforeTest" finished-at="2020-10-04T21:56:56 IST" duration-ms="8170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:22:22 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-01T15:22:50 IST" duration-ms="27530" status="PASS">
+        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:56:56 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-04T21:57:04 IST" duration-ms="7746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,15 +90,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingFrames -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:22:50 IST" name="afterTest" finished-at="2020-10-01T15:22:50 IST" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:04 IST" name="afterTest" finished-at="2020-10-04T21:57:04 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:22:50 IST" name="beforeTest" finished-at="2020-10-01T15:23:08 IST" duration-ms="18710" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:04 IST" name="beforeTest" finished-at="2020-10-04T21:57:12 IST" duration-ms="7968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:23:08 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-01T15:23:20 IST" duration-ms="11578" status="PASS">
+        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:12 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-04T21:57:21 IST" duration-ms="8793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,15 +119,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingFrames -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:23:20 IST" name="afterTest" finished-at="2020-10-01T15:23:20 IST" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:21 IST" name="afterTest" finished-at="2020-10-04T21:57:21 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:23:20 IST" name="beforeTest" finished-at="2020-10-01T15:23:32 IST" duration-ms="11902" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:21 IST" name="beforeTest" finished-at="2020-10-04T21:57:29 IST" duration-ms="8066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:23:32 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-01T15:23:43 IST" duration-ms="10407" status="PASS">
+        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:29 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-04T21:57:39 IST" duration-ms="9477" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,15 +148,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingFrames -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:23:43 IST" name="afterTest" finished-at="2020-10-01T15:23:43 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:39 IST" name="afterTest" finished-at="2020-10-04T21:57:39 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:23:43 IST" name="beforeTest" finished-at="2020-10-01T15:23:55 IST" duration-ms="12632" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:39 IST" name="beforeTest" finished-at="2020-10-04T21:57:47 IST" duration-ms="8090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:23:55 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-01T15:26:26 IST" duration-ms="150188" status="FAIL">
+        <test-method signature="handlingFrames(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:47 IST" name="handlingFrames" data-provider="readData" finished-at="2020-10-04T21:57:57 IST" duration-ms="10248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,81 +174,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@id='chat-widget']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53508716c2a615e19ac39ce40bac7993
-*** Element info: {Using=xpath, value=//iframe[@id='chat-widget']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@id='chat-widget']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53508716c2a615e19ac39ce40bac7993
-*** Element info: {Using=xpath, value=//iframe[@id='chat-widget']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.atmecs.handling_frames.helpers.HelperClass.switchToFrame(HelperClass.java:45)
-at com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS.handlingFrameAndClickChatIconTest(HandlingFramesUsingJS.java:36)
-at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingFrames -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@48fa0f47]" started-at="2020-10-01T15:26:26 IST" name="afterTest" finished-at="2020-10-01T15:26:26 IST" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.handling_frames.tests.HandlingFrames@75329a49]" started-at="2020-10-04T21:57:57 IST" name="afterTest" finished-at="2020-10-04T21:57:58 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
