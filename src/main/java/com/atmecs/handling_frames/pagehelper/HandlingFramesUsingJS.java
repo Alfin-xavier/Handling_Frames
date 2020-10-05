@@ -1,5 +1,3 @@
-// Handling frames using javascript
-
 package com.atmecs.handling_frames.pagehelper;
 
 import java.io.IOException;
