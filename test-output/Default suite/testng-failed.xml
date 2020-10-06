@@ -7,7 +7,7 @@
         <methods>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="handlingFrames"/>
+          <include name="handlingFrames" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.atmecs.handling_frames.tests.HandlingFrames -->
     </classes>

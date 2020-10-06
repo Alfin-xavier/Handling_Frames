@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,46 +93,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 6 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(bnm, 9.845739743E9, bnm@gmail.com)">handlingFrames(bnm, 9.845739743E9, bnm@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(klj, 9.485398389E9, kjl@gmail.com)">handlingFrames(klj, 9.485398389E9, kjl@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(abc, 8.574858756E9, abc@gmail.com)">handlingFrames(abc, 8.574858756E9, abc@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(jhg, 8.767658687E9, jhg@gmail.com)">handlingFrames(jhg, 8.767658687E9, jhg@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(abc, 8.574858756E9, abc@gmail.com)">handlingFrames(abc, 8.574858756E9, abc@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(def, 8.745849845E9, def@gmail.com)">handlingFrames(def, 8.745849845E9, def@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(dhf, 9.848734788E9, dhf@gmail.com)">handlingFrames(dhf, 9.848734788E9, dhf@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.atmecs.handling_frames.tests.HandlingFrames" class="method navigator-link" hash-for-method="handlingFrames(bnm, 9.845739743E9, bnm@gmail.com)">handlingFrames(bnm, 9.845739743E9, bnm@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -144,26 +144,38 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.atmecs.handling_frames.tests.HandlingFrames</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handlingFrames(bnm, 9.845739743E9, bnm@gmail.com)">
+                  </a> <!-- handlingFrames(bnm, 9.845739743E9, bnm@gmail.com) -->
+                  <span class="method-name">handlingFrames</span>
+                  <span class="parameters">(bnm, 9.845739743E9, bnm@gmail.com)</span>
+                  <div class="stack-trace">java.lang.IllegalAccessError: class com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS (in unnamed module @0x6c8bca63) cannot access class com.sun.tools.sjavac.Log (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.sjavac to unnamed module @0x6c8bca63
+	at com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS.handlingFrameAndClickChatIconTest(HandlingFramesUsingJS.java:37)
+	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="handlingFrames(klj, 9.485398389E9, kjl@gmail.com)">
                   </a> <!-- handlingFrames(klj, 9.485398389E9, kjl@gmail.com) -->
                   <span class="method-name">handlingFrames</span>
                   <span class="parameters">(klj, 9.485398389E9, kjl@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="handlingFrames(abc, 8.574858756E9, abc@gmail.com)">
-                  </a> <!-- handlingFrames(abc, 8.574858756E9, abc@gmail.com) -->
-                  <span class="method-name">handlingFrames</span>
-                  <span class="parameters">(abc, 8.574858756E9, abc@gmail.com)</span>
+                  <div class="stack-trace">java.lang.IllegalAccessError: class com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS (in unnamed module @0x6c8bca63) cannot access class com.sun.tools.sjavac.Log (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.sjavac to unnamed module @0x6c8bca63
+	at com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS.handlingFrameAndClickChatIconTest(HandlingFramesUsingJS.java:37)
+	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -172,6 +184,26 @@
                   </a> <!-- handlingFrames(jhg, 8.767658687E9, jhg@gmail.com) -->
                   <span class="method-name">handlingFrames</span>
                   <span class="parameters">(jhg, 8.767658687E9, jhg@gmail.com)</span>
+                  <div class="stack-trace">java.lang.IllegalAccessError: class com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS (in unnamed module @0x6c8bca63) cannot access class com.sun.tools.sjavac.Log (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.sjavac to unnamed module @0x6c8bca63
+	at com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS.handlingFrameAndClickChatIconTest(HandlingFramesUsingJS.java:37)
+	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="handlingFrames(abc, 8.574858756E9, abc@gmail.com)">
+                  </a> <!-- handlingFrames(abc, 8.574858756E9, abc@gmail.com) -->
+                  <span class="method-name">handlingFrames</span>
+                  <span class="parameters">(abc, 8.574858756E9, abc@gmail.com)</span>
+                  <div class="stack-trace">java.lang.IllegalAccessError: class com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS (in unnamed module @0x6c8bca63) cannot access class com.sun.tools.sjavac.Log (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.sjavac to unnamed module @0x6c8bca63
+	at com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS.handlingFrameAndClickChatIconTest(HandlingFramesUsingJS.java:37)
+	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -180,6 +212,12 @@
                   </a> <!-- handlingFrames(def, 8.745849845E9, def@gmail.com) -->
                   <span class="method-name">handlingFrames</span>
                   <span class="parameters">(def, 8.745849845E9, def@gmail.com)</span>
+                  <div class="stack-trace">java.lang.IllegalAccessError: class com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS (in unnamed module @0x6c8bca63) cannot access class com.sun.tools.sjavac.Log (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.sjavac to unnamed module @0x6c8bca63
+	at com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS.handlingFrameAndClickChatIconTest(HandlingFramesUsingJS.java:37)
+	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -188,18 +226,16 @@
                   </a> <!-- handlingFrames(dhf, 9.848734788E9, dhf@gmail.com) -->
                   <span class="method-name">handlingFrames</span>
                   <span class="parameters">(dhf, 9.848734788E9, dhf@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="handlingFrames(bnm, 9.845739743E9, bnm@gmail.com)">
-                  </a> <!-- handlingFrames(bnm, 9.845739743E9, bnm@gmail.com) -->
-                  <span class="method-name">handlingFrames</span>
-                  <span class="parameters">(bnm, 9.845739743E9, bnm@gmail.com)</span>
+                  <div class="stack-trace">java.lang.IllegalAccessError: class com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS (in unnamed module @0x6c8bca63) cannot access class com.sun.tools.sjavac.Log (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.sjavac to unnamed module @0x6c8bca63
+	at com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS.handlingFrameAndClickChatIconTest(HandlingFramesUsingJS.java:37)
+	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -213,7 +249,7 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.atmecs.handling_frames.utilities.TestNGListeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.handling_frames.tests.HandlingFrames&quot;/&gt;
     &lt;/classes&gt;
@@ -259,32 +295,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'handlingFrames')
 data.setCell(0, 2, 'com.atmecs.handling_frames.tests.HandlingFrames')
-data.setCell(0, 3, 10504);
+data.setCell(0, 3, 11223);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'handlingFrames')
 data.setCell(1, 2, 'com.atmecs.handling_frames.tests.HandlingFrames')
-data.setCell(1, 3, 9658);
+data.setCell(1, 3, 9349);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'handlingFrames')
 data.setCell(2, 2, 'com.atmecs.handling_frames.tests.HandlingFrames')
-data.setCell(2, 3, 9442);
+data.setCell(2, 3, 7569);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'handlingFrames')
 data.setCell(3, 2, 'com.atmecs.handling_frames.tests.HandlingFrames')
-data.setCell(3, 3, 9295);
+data.setCell(3, 3, 7565);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'handlingFrames')
 data.setCell(4, 2, 'com.atmecs.handling_frames.tests.HandlingFrames')
-data.setCell(4, 3, 8584);
+data.setCell(4, 3, 7289);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'handlingFrames')
 data.setCell(5, 2, 'com.atmecs.handling_frames.tests.HandlingFrames')
-data.setCell(5, 3, 7903);
+data.setCell(5, 3, 6955);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -316,72 +352,84 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">handlingFrames(abc, 8.574858756E9, abc@gmail.com)</span>
-                <span class="method-start">8930 ms</span>
+                <span class="method-start">66425 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">19445 ms</span>
+                <span class="method-start">77666 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">19702 ms</span>
+                <span class="method-start">79913 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">handlingFrames(def, 8.745849845E9, def@gmail.com)</span>
-                <span class="method-start">28229 ms</span>
+                <span class="method-start">88720 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">37675 ms</span>
+                <span class="method-start">98074 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">38168 ms</span>
+                <span class="method-start">98320 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">handlingFrames(dhf, 9.848734788E9, dhf@gmail.com)</span>
-                <span class="method-start">47107 ms</span>
+                <span class="method-start">108058 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">56404 ms</span>
+                <span class="method-start">115631 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">56667 ms</span>
+                <span class="method-start">115896 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">handlingFrames(bnm, 9.845739743E9, bnm@gmail.com)</span>
-                <span class="method-start">64532 ms</span>
+                <span class="method-start">124611 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">72437 ms</span>
+                <span class="method-start">131569 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">72767 ms</span>
+                <span class="method-start">131905 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">handlingFrames(klj, 9.485398389E9, kjl@gmail.com)</span>
-                <span class="method-start">80733 ms</span>
+                <span class="method-start">140261 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">89319 ms</span>
+                <span class="method-start">147828 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">89642 ms</span>
+                <span class="method-start">148067 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">handlingFrames(jhg, 8.767658687E9, jhg@gmail.com)</span>
-                <span class="method-start">97501 ms</span>
+                <span class="method-start">157031 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">107161 ms</span>
+                <span class="method-start">164322 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
