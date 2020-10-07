@@ -22,7 +22,7 @@ public class HandlingFrames extends BaseTest
 		return data;
 	}
 	
-	public static Logger log = LogManager.getLogger(HandlingFrames.class.getName());
+	public static Logger log = LogManager.getLogger(HandlingFrames.class);
 	@Test(dataProvider = "readData")
 	public void handlingFrames(String name, String number, String mail)
 	{

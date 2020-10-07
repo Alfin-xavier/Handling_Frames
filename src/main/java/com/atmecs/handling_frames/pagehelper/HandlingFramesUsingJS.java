@@ -29,8 +29,6 @@ public class HandlingFramesUsingJS
 
 		locatorsFile = PropertyReader.readProperties(Constants.LOCATORS);
 
-		datas = PropertyReader.readProperties(Constants.DATAS);
-		
 		helpers.switchToFrame(locatorsFile.getProperty("frame"));
 		
 		helpers.jsMethods(locatorsFile.getProperty("chaticon"));

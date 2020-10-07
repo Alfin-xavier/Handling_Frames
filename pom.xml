@@ -69,6 +69,7 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <parallel>instances</parallel>
         </configuration>
       </plugin>
 
