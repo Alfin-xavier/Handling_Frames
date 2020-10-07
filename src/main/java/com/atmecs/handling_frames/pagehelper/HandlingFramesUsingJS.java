@@ -60,7 +60,7 @@ public class HandlingFramesUsingJS
 
 		helpers.selectValueFromDropDown(locatorsFile.getProperty("client"), "index1_1");
 		
-		log.info("PSelecting from Dropdown");
+		log.info("Selecting from Dropdown");
 
 		helpers.clickOperation(locatorsFile.getProperty("button"));
 		

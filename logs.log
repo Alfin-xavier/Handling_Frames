@@ -14,3 +14,192 @@
 [TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
 [TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
 [TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+2020-10-07 16:44:02 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:44:02 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:44:03 INFO  Logging:30 - Providing Username
+2020-10-07 16:44:03 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:44:03 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:44:03 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:44:03 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:44:04 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:44:04 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:44:04 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:44:05 INFO  Logging:30 - Providing Username
+2020-10-07 16:44:05 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:44:05 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:44:05 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:44:06 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:44:06 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:44:24 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:44:25 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:44:26 INFO  Logging:30 - Providing Username
+2020-10-07 16:44:26 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:44:26 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:44:26 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:44:26 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:44:26 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:44:33 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:44:33 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:44:34 INFO  Logging:30 - Providing Username
+2020-10-07 16:44:34 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:44:34 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:44:45 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:44:45 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:44:46 INFO  Logging:30 - Providing Username
+2020-10-07 16:44:46 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:44:46 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:44:46 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:44:46 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:44:47 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:44:55 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:44:55 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:44:56 INFO  Logging:30 - Providing Username
+2020-10-07 16:44:56 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:44:56 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:44:57 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:44:57 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:44:57 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:45:03 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:45:03 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:45:04 INFO  Logging:30 - Providing Username
+2020-10-07 16:45:04 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:45:04 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:45:04 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:45:04 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:45:04 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:45:18 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:45:18 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:45:19 INFO  Logging:30 - Providing Username
+2020-10-07 16:45:19 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:45:19 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:45:19 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:45:20 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:45:20 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:45:22 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:45:23 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:45:23 INFO  Logging:30 - Providing Username
+2020-10-07 16:45:23 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:45:23 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:45:24 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:45:24 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:45:24 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:45:44 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:45:44 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:45:44 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:45:44 INFO  Logging:30 - Providing Username
+2020-10-07 16:45:44 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:45:44 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:45:45 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:45:45 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:45:45 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:45:45 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:45:45 INFO  Logging:30 - Providing Username
+2020-10-07 16:45:45 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:45:45 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:45:46 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:45:46 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:45:46 DEBUG Logging:35 - Clicking on the chatbutton
+2020-10-07 16:46:09 DEBUG Logging:35 - Switching to frame
+2020-10-07 16:46:09 DEBUG Logging:35 - Clicking on the Chaticon
+2020-10-07 16:46:10 INFO  Logging:30 - Providing Username
+2020-10-07 16:46:10 INFO  Logging:30 - Providing Mobile Number
+2020-10-07 16:46:10 INFO  Logging:30 - Providing Mail_Id
+2020-10-07 16:46:10 INFO  Logging:30 - Clicking the checkbox
+2020-10-07 16:46:10 INFO  Logging:30 - PSelecting from Dropdown
+2020-10-07 16:46:11 DEBUG Logging:35 - Clicking on the chatbutton
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-1] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-1] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Switching to frame
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the Chaticon
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mobile Number
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Providing Mail_Id
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - Clicking the checkbox
+[TestNG-tests-2] INFO  com.atmecs.handling_frames.utilities.Logging  - PSelecting from Dropdown
+[TestNG-tests-2] DEBUG com.atmecs.handling_frames.utilities.Logging  - Clicking on the chatbutton
