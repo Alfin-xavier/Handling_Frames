@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="363.025" tests="12" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="238.779" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="./lib/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire11601054587115990146\surefirebooter10160023738327974909.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire11601054587115990146 2020-10-06T23-27-35_206-jvmRun1 surefire14459322383189686697tmp surefire_015262441184405741040tmp"/>
+    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8314518984183779434\surefirebooter12259377831565147608.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8314518984183779434 2020-10-07T16-35-06_177-jvmRun1 surefire6261698637344282221tmp surefire_05239704215046082644tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\handling_frames\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\alfin.anthonyraj"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire11601054587115990146\surefirebooter10160023738327974909.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8314518984183779434\surefirebooter12259377831565147608.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -57,224 +57,325 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="handlingFrames[abc, 8.574858756E9, abc@gmail.com](1)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="13.418">
+  <testcase name="handlingFrames[abc, 8.574858756E9, abc@gmail.com](1)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="17.625">
     <system-out><![CDATA[https://phptravels.com/demo
 handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 17781
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 37988
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+1602068716401	geckodriver	INFO	Listening on 127.0.0.1:36001
 ChromeDriver was started successfully.
-Oct 06, 2020 11:27:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602068717913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile4U50cS"
+Oct 07, 2020 4:35:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="handlingFrames[abc, 8.574858756E9, abc@gmail.com](1)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="12.649">
-    <system-out><![CDATA[handlingFrames Passed!!
-https://phptravels.com/demo
-handlingFrames Strated!!
-]]></system-out>
-    <system-err><![CDATA[1602007224257	geckodriver	INFO	Listening on 127.0.0.1:4103
-1602007224681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile6fHjYX"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+log4j:WARN Continuable parsing error 3 and column 32
+log4j:WARN Document root element "Configuration", must match DOCTYPE root "null".
+log4j:WARN Continuable parsing error 3 and column 32
+log4j:WARN Document is invalid: no grammar found.
+log4j:ERROR DOM element is - not a <log4j:configuration> element.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602007228154	Marionette	INFO	Listening on port 60330
-1602007228308	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 06, 2020 11:30:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 ]]></system-err>
   </testcase>
-  <testcase name="handlingFrames[def, 8.745849845E9, def@gmail.com](2)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="9.404">
+  <testcase name="handlingFrames[abc, 8.574858756E9, abc@gmail.com](1)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="13.465">
     <system-out><![CDATA[handlingFrames Passed!!
-https://phptravels.com/demo
-handlingFrames Strated!!
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 45825
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 15241
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 06, 2020 11:28:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="handlingFrames[def, 8.745849845E9, def@gmail.com](2)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="12.588">
+  <testcase name="handlingFrames[def, 8.745849845E9, def@gmail.com](2)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="9.489">
     <system-out><![CDATA[handlingFrames Passed!!
 https://phptravels.com/demo
 handlingFrames Strated!!
+https://phptravels.com/demo
+handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Switching to frame
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the Chaticon
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[1602007251859	Marionette	INFO	Stopped listening on port 60330
+    <system-err><![CDATA[console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 46974
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+1602068757817	Marionette	INFO	Listening on port 56102
+1602068757931	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 07, 2020 4:35:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 07, 2020 4:35:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="handlingFrames[def, 8.745849845E9, def@gmail.com](2)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="2.093">
+    <system-out><![CDATA[handlingFrames Passed!!
+https://phptravels.com/demo
+handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 34411
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 07, 2020 4:36:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="handlingFrames[dhf, 9.848734788E9, dhf@gmail.com](3)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="2.139">
+    <system-out><![CDATA[handlingFrames Passed!!
+https://phptravels.com/demo
+handlingFrames Strated!!
+https://phptravels.com/demo
+handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
+]]></system-out>
+    <system-err><![CDATA[1602068779139	Marionette	INFO	Stopped listening on port 56102
+Oct 07, 2020 4:36:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602007253590	geckodriver	INFO	Listening on 127.0.0.1:32813
-1602007254064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilefHIqfL"
+1602068782159	geckodriver	INFO	Listening on 127.0.0.1:14557
+1602068782490	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilejx72em"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602007257221	Marionette	INFO	Listening on port 60389
-1602007257688	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 06, 2020 11:30:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602068788089	Marionette	INFO	Listening on port 56321
+1602068788671	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 07, 2020 4:36:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="handlingFrames[dhf, 9.848734788E9, dhf@gmail.com](3)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="10.331">
+  <testcase name="handlingFrames[dhf, 9.848734788E9, dhf@gmail.com](3)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="15.124">
     <system-out><![CDATA[handlingFrames Passed!!
-https://phptravels.com/demo
-handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 1744
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 11:28:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+    <system-err><![CDATA[1602068843742	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 ]]></system-err>
   </testcase>
-  <testcase name="handlingFrames[dhf, 9.848734788E9, dhf@gmail.com](3)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="36.763">
-    <failure message="Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (9f25b94d-c8f5-4fd6-8268-b19c61957b10)] -&gt; xpath: //iframe[@id=&apos;chat-widget&apos;]] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 20580, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9f25b94d-c8f5-4fd6-8268-b19c61957b10" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (9f25b94d-c8f5-4fd6-8268-b19c61957b10)] -> xpath: //iframe[@id='chat-widget']] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 20580, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9f25b94d-c8f5-4fd6-8268-b19c61957b10
-	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
-]]></failure>
+  <testcase name="handlingFrames[bnm, 9.845739743E9, bnm@gmail.com](4)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="8.526">
     <system-out><![CDATA[handlingFrames Passed!!
-https://phptravels.com/demo
-handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[1602007284386	Marionette	INFO	Stopped listening on port 60389
+    <system-err><![CDATA[1602068808316	Marionette	INFO	Stopped listening on port 56321
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602007285962	geckodriver	INFO	Listening on 127.0.0.1:40697
-1602007286436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofiletfwZZX"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602007288764	Marionette	INFO	Listening on port 60452
-1602007289058	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 06, 2020 11:31:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+1602068810591	geckodriver	INFO	Listening on 127.0.0.1:13859
+1602068811050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileOXbaqR"
 ]]></system-err>
   </testcase>
-  <testcase name="handlingFrames[bnm, 9.845739743E9, bnm@gmail.com](4)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="8.303">
+  <testcase name="handlingFrames[bnm, 9.845739743E9, bnm@gmail.com](4)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="7.905">
     <system-out><![CDATA[handlingFrames Passed!!
 https://phptravels.com/demo
 handlingFrames Strated!!
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 16007
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 11:29:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="handlingFrames[bnm, 9.845739743E9, bnm@gmail.com](4)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="11.014">
-    <system-out><![CDATA[handlingFrames Failed!!
 https://phptravels.com/demo
 handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[1602007332540	Marionette	INFO	Stopped listening on port 60452
+    <system-err><![CDATA[1602068843949	Marionette	INFO	Stopped listening on port 56438
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB50006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602007333979	geckodriver	INFO	Listening on 127.0.0.1:15504
-1602007334447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileipm2wy"
+1602068855470	geckodriver	INFO	Listening on 127.0.0.1:24103
+1602068855885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileZe6Srv"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602007337125	Marionette	INFO	Listening on port 60513
-1602007337581	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 06, 2020 11:32:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602068870606	Marionette	INFO	Listening on port 56588
+1602068870699	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 07, 2020 4:37:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="handlingFrames[klj, 9.485398389E9, kjl@gmail.com](5)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="9.683">
-    <system-out><![CDATA[handlingFrames Passed!!
-https://phptravels.com/demo
-handlingFrames Strated!!
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 11233
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 5351
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 06, 2020 11:29:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 07, 2020 4:37:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="handlingFrames[klj, 9.485398389E9, kjl@gmail.com](5)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="11.153">
+  <testcase name="handlingFrames[klj, 9.485398389E9, kjl@gmail.com](5)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="9.373">
+    <system-out><![CDATA[handlingFrames Passed!!
+https://phptravels.com/demo
+https://phptravels.com/demo
+handlingFrames Strated!!
+handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 3748
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602068821291	Marionette	INFO	Listening on port 56438
+1602068821599	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 07, 2020 4:37:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 07, 2020 4:37:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="handlingFrames[klj, 9.485398389E9, kjl@gmail.com](5)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="11.133">
     <system-out><![CDATA[handlingFrames Passed!!
 https://phptravels.com/demo
 handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[1602007351800	Marionette	INFO	Stopped listening on port 60513
-[Parent 18860, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+    <system-err><![CDATA[1602068895726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileFo7RcH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602068900699	Marionette	INFO	Listening on port 56726
+1602068900988	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 07, 2020 4:38:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="handlingFrames[jhg, 8.767658687E9, jhg@gmail.com](6)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="11.541">
+    <system-out><![CDATA[handlingFrames Passed!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
+]]></system-out>
+    <system-err><![CDATA[1602068892082	Marionette	INFO	Stopped listening on port 56588
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602007353650	geckodriver	INFO	Listening on 127.0.0.1:47668
-1602007354115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileZLhEc0"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602007357097	Marionette	INFO	Listening on port 60581
-1602007357243	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 06, 2020 11:32:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+1602068895278	geckodriver	INFO	Listening on 127.0.0.1:26384
 ]]></system-err>
   </testcase>
-  <testcase name="handlingFrames[jhg, 8.767658687E9, jhg@gmail.com](6)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="10.615">
+  <testcase name="handlingFrames[jhg, 8.767658687E9, jhg@gmail.com](6)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="13.019">
     <system-out><![CDATA[handlingFrames Passed!!
 https://phptravels.com/demo
 handlingFrames Strated!!
+Switching to frame
+Clicking on the Chaticon
+Providing Username
+Providing Mobile Number
+Providing Mail_Id
+Clicking the checkbox
+PSelecting from Dropdown
+Clicking on the chatbutton
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 46822
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 11:30:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="handlingFrames[jhg, 8.767658687E9, jhg@gmail.com](6)" classname="com.atmecs.handling_frames.tests.HandlingFrames" time="36.092">
-    <failure message="Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (35d5a229-6202-44e2-ad4a-bedc9234c418)] -&gt; xpath: //iframe[@id=&apos;chat-widget&apos;]] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1288, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 35d5a229-6202-44e2-ad4a-bedc9234c418" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (35d5a229-6202-44e2-ad4a-bedc9234c418)] -> xpath: //iframe[@id='chat-widget']] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1288, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 35d5a229-6202-44e2-ad4a-bedc9234c418
-	at com.atmecs.handling_frames.tests.HandlingFrames.handlingFrames(HandlingFrames.java:33)
-]]></failure>
-    <system-out><![CDATA[handlingFrames Passed!!
-https://phptravels.com/demo
-handlingFrames Strated!!
-]]></system-out>
-    <system-err><![CDATA[1602007371583	Marionette	INFO	Stopped listening on port 60581
+    <system-err><![CDATA[1602068915419	Marionette	INFO	Stopped listening on port 56726
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602007373379	geckodriver	INFO	Listening on 127.0.0.1:42108
-1602007373837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileQdK4j2"
+1602068917334	geckodriver	INFO	Listening on 127.0.0.1:36588
+1602068917811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileHxwK0z"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602007376546	Marionette	INFO	Listening on port 60639
-1602007376960	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 06, 2020 11:32:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602068925496	Marionette	INFO	Listening on port 56806
+1602068925709	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 07, 2020 4:38:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

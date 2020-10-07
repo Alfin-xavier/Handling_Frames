@@ -10,4 +10,5 @@ public class Constants
 	public static final String LOCATORS = "./src/main/resources/locators/locators.properties";
 	public static final String EXCEL_DATAS = "./src/main/resources/datas/HandlingFrames.xlsx";
 	public static final String SCREEN_SHOTS = "./screenshots";
+	public static final String LOG4J_FILE = "./src/main/resources/log4j.properties";
 }

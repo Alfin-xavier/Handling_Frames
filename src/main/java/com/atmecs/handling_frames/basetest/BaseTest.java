@@ -6,12 +6,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-
 import com.atmecs.handling_frames.constants.Constants;
 import com.atmecs.handling_frames.utilities.PropertyReader;
 import com.atmecs.handling_frames.utilities.TestNGListeners;
@@ -53,11 +51,13 @@ public class BaseTest
 	  driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
 	  
 	  TestNGListeners.driver = driver;
+	 // Logging.driver = driver;
 	  }
 	 
 
 	@AfterMethod
-	public void afterTest() {
+	public void afterTest()
+	{
 		driver.close();
 
 	}
