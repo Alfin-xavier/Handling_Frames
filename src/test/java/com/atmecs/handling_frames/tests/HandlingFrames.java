@@ -1,27 +1,15 @@
 package com.atmecs.handling_frames.tests;
 
 import java.io.IOException;
-
-import org.apache.log4j.Logger;
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.atmecs.handling_frames.basetest.BaseTest;
 import com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS;
-import com.atmecs.handling_frames.utilities.ReadDataFromExcel;
+import com.atmecs.handling_frames.utilities.DataProviderClass;
 
 public class HandlingFrames extends BaseTest
 {
-	@DataProvider
-	public Object[][] readData()
-	{
-		Object[][] data = ReadDataFromExcel.readExcelData("Form_filling");
-		
-		return data;
-	}
 
-	@Test(dataProvider = "readData")
+	@Test(dataProvider = "filling_details", dataProviderClass= DataProviderClass.class)
 	public void handlingFrames(String name, String number, String mail)
 	{
 	
