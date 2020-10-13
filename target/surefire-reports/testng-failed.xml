@@ -4,18 +4,6 @@
   <listeners>
     <listener class-name="com.atmecs.handling_frames.utilities.TestNGListeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Test1(failed)" verbose="0">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.atmecs.handling_frames.tests.HandlingFrames">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="handlingFrames" invocation-numbers="5"/>
-        </methods>
-      </class> <!-- com.atmecs.handling_frames.tests.HandlingFrames -->
-    </classes>
-  </test> <!-- Test1(failed) -->
   <test thread-count="5" parallel="tests" name="Test2(failed)" verbose="0">
     <parameter name="browser" value="firefox"/>
     <classes>
@@ -28,4 +16,16 @@
       </class> <!-- com.atmecs.handling_frames.tests.HandlingFrames -->
     </classes>
   </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.handling_frames.tests.HandlingFrames">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="handlingFrames"/>
+        </methods>
+      </class> <!-- com.atmecs.handling_frames.tests.HandlingFrames -->
+    </classes>
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
