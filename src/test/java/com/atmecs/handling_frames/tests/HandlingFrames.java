@@ -21,7 +21,7 @@ public class HandlingFrames extends BaseTest
 	}
 	
 	@Test(dataProvider = "readData")
-	public void handlingFrames(String name, String number, String mail)
+	public void Form_filling(String name, String number, String mail)
 	{
 	
 		HandlingFramesUsingJS frames = new HandlingFramesUsingJS(driver);
