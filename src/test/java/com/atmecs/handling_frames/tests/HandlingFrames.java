@@ -1,15 +1,26 @@
 package com.atmecs.handling_frames.tests;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
+
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.atmecs.handling_frames.basetest.BaseTest;
 import com.atmecs.handling_frames.pagehelper.HandlingFramesUsingJS;
-import com.atmecs.handling_frames.utilities.DataProviderClass;
+import com.atmecs.handling_frames.utilities.ReadDataFromExcel;
 
 public class HandlingFrames extends BaseTest
 {
 
-	@Test(dataProvider = "filling_details", dataProviderClass= DataProviderClass.class)
+	@DataProvider
+	public Object[][] readData(Method method)
+	{
+		ReadDataFromExcel.readExcelData(method.getName());
+		
+		return ReadDataFromExcel.readExcelData(method.getName());
+	}
+	
+	@Test(dataProvider = "readData")
 	public void handlingFrames(String name, String number, String mail)
 	{
 	
@@ -29,4 +40,5 @@ public class HandlingFrames extends BaseTest
 		}
 		
 	}
+	
 }
